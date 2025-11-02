@@ -1,0 +1,11 @@
+[project]
+name = "1-ollama"
+version = "0.1.0"
+description = "Sample project to demonstrate usage of local Ollama models with Langchain."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.0.3",
+    "langchain-ollama>=1.0.0",
+    "python-dotenv>=1.2.1",
+]
